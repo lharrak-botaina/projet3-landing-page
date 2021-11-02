@@ -1,0 +1,51 @@
+*{
+    background-color: rgb(218, 192, 153);
+}
+h1{
+    color: blueviolet;
+    font-size: 50px;
+}
+img{
+    width: 500px;
+    height: 400px;
+    margin: 0;
+}
+#P1{
+    color: cornflowerblue;
+    font-size: 30px;
+}
+#P2{
+    color: darkblue;
+    font-size: 30px;
+}
+@media screen and (MIN-width: 1000px) {
+    h1{
+      color: darkgreen;
+    }
+#P3{
+    display: block;
+}
+h2 {
+    color: darkslateblue;
+}
+  }
+ @media screen and (max-width:1100PX)  {
+     #P3{
+         display: flex;
+     }
+     h2{
+        color: dodgerblue;
+     }
+ } 
+  @media screen and (max-width:740PX){
+      *{
+          padding: 10px;
+      }
+    img{
+          width: 200px;
+          height: 200px;
+          margin: 20px;
+      }
+      
+  }
+ 
