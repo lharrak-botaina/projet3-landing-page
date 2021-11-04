@@ -3,13 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
-#logo{
-    padding: 0%;
-	top:0; 
-	left:0; 
-    margin: 0%;
-    width: 100px;
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    
+}
+ul {
+    list-style-type: none;
+    direction: rtl;
+}
+nav ul li {
+     display: inline;
+    color: white;
+    
+    
+    padding: 25px 50px 75px 100px;
+    }
 
+
+
+.navbar {
+    display: inline;
+    width: 80%;
+    position: fixed;
+    background-color: rgb(136, 161, 114, 0.6);
+    top: 0;
+    margin: 50px;
+    height: 80px;
+    padding: 30px;
+  
+   
+    
+}
+
+#logo{
+    
+   
+	top: 0;
+    margin-right: 10px;
+    border: 2px solid white;
+    padding: 13px 30px;
+    border-radius: 5px;
+    color: white;
+    background: none;
+    font-weight: 700;
+	width: 200px;
+}
+
+header{
+    background-image: url(New-Generation-DAF-trucks-line-up.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1600px;
 }
 #logo:hover{
     cursor: pointer;
@@ -20,7 +66,6 @@
     height: 500px;
     top: 0;
 }
-    
     
         
 
