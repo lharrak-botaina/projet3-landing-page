@@ -30,7 +30,7 @@ nav ul li {
     background-color: rgb(136, 161, 114, 0.6);
     top: 0;
     margin: 50px;
-    height: 80px;
+    height: 90px;
     padding: 30px;
   
    
@@ -39,16 +39,16 @@ nav ul li {
 
 #logo{
     
-   
-	top: 0;
-    margin-right: 10px;
-    border: 2px solid white;
-    padding: 13px 30px;
-    border-radius: 5px;
-    color: white;
-    background: none;
-    font-weight: 700;
-	width: 200px;
+    display: block;
+    text-align: left;
+    position: fixed;
+    top: 10;
+    left: 40px;
+    right: 50px;
+    white-space: nowrap;
+    height: 210px;
+    z-index: 17;
+	
 }
 
 header{
@@ -69,3 +69,8 @@ header{
     
         
 
+
+
+
+
+https://www.templatemonsterpreview.com/demo/58066.html?_gl=1*1o7wp3i*_ga*ODY0MTc3MjU5LjE2MzYwNjc4MzM.*_ga_FTPYEGT5LY*MTYzNjA2NzgzMi4xLjAuMTYzNjA2NzgzMy41OQ..&_ga=2.156092028.692494573.1636067833-864177259.1636067833
