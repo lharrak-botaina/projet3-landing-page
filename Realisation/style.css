@@ -53,7 +53,31 @@
      margin: 0;
     padding: 0;
   }
-  #international{
-  padding: 30px;
+  .international{
+  margin-right: 700px;
+  margin-top: 130px;
+  font-size: 2rem;
+  color: #fff;
    
+  }
+  .read-more{
+    margin-right: 680px;
+    margin-top: 130px;
+    
+  text-align: center;
+  display: inline-block;
+  font-size: medium;
+  padding: 15px;
+  border: olive solid ;
+  border-radius: 5px;
+    background-color: #D9D2B8;
+  }
+  h2{
+      text-align: center;
+      font-size: 40px;
+      color: rgb(80, 80, 67);
+  }
+  .packages{
+      
+
   }
