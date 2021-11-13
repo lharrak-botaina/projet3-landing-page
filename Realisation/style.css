@@ -76,6 +76,7 @@ color: seashell;
 .image-position{
     display: flex;
     flex-direction: row;
+<<<<<<< HEAD
     margin-left: 150px;
 }
 
@@ -93,5 +94,33 @@ color: seashell;
 
 
 
+=======
+    display: flex;
+    margin: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+.email{
+ border:solid #D9D2B8;
+ text-align: center;
+ font-size: 20px;
+ padding: 10px;
+ margin: 300px;
+
+/* justify-content: center;
+margin: 300px;
+font-size: 20px;
+padding: 20px;
+text-align: center;
+
+
+border: olive solid ;
+border-radius: 5px;
+  background-color: #D9D2B8; */
+  
+}
+ 
+>>>>>>> 90db58f257ec3441b2ea87c2de4038f03bc6451b
 
 
