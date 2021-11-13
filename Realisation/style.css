@@ -1,124 +1,97 @@
-*{
+* {
+
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+body {
 
-
-
-  #hotline-number{
-      justify-content: flex-end;
-      float: right;
-      margin-left: 60%;
-     
-  }
-  body{
-      overflow-x: hidden;
-
-  }
-  #header{
-      display: flex;
-      flex-direction: row;
-      border: olive solid ;
-     margin: 30px;
-      width: 80%;
-      justify-content: flex-end;
-    justify-content: space-between;
-    background-color: #fff;
-
-
-  }
-  #logo{
-      width: 80px;
-      margin-top: 0px;
-   
-      
-  }
-  #nav-bar ul li{
-      list-style: none;
-      flex-direction: row;
-        display: inline;
-        margin-left: 50px ;
-        margin-right: 50px;
-        font-size: 20px;
-  }
-  #nav-bar {
-      margin-top: 30px;
-  }
-  .transport{
-    background-image: url(Jumbo-takes-delivery-of-first-DAF-CF-Electric-011_copie.png);
-    height: 700px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-     margin: 0;
-    padding: 0;
-  }
-  .international{
-    margin-right: 300px;
-    margin-top: 130px;
-    margin-left: 200px;
-  
-  font-size: 2rem;
-  color: #fff;
-   
-  }
-  .read-more{
-    margin-right: 300px;
-    margin-top: 130px;
-    margin-left: 300px;
-    
-  text-align: center;
-  display: inline-block;
-  font-size: medium;
-  padding: 25px;
-  border: olive solid ;
-  border-radius: 5px;
-    background-color: #D9D2B8;
-  }
-  h2{
-    text-align: center;
-     margin: 100px;
-      font-size: 40px;
-      color: rgb(80, 80, 67);
-  }
-  .section1{
-    flex-direction: row;
-    display: flex;
-    margin: 100px;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    
-  }
-  .icones{
-    font-size: 50px;
-  }
-#p-icones{
-    justify-content: center;
-    font-size: 30px;
-    margin: 21px 69px 3px -17px;
-   
-  }
-  .section2 {
-    flex-direction: row;
-    display: flex;
-    margin: 100px;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-.email{
- 
-justify-content: center;
-margin: 300px;
-font-size: 20px;
-padding: 20px;
-text-align: center;
-
-
-border: olive solid ;
-border-radius: 5px;
-  background-color: #D9D2B8;
-  
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
- 
+.row {
+    background-image:url(/téléchargement.jpg) ;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+   
+}
+#logo{
+    width: 40px;
+    height: 50px;
+    margin: 20px;
+   
+
+
+}
+.navlist{
+display: flex;
+margin: 20px;
+margin-left: 100px;
+margin: 20px;
+color: seashell;
+}
+.navlist p {
+    margin-left: 550px;
+    color: black;
+}
+.navlist i {
+ width: 25px;
+ font-size: 20px;
+}
+.button-container h1{
+    font-size: 40px;
+   margin-left: 600px;
+    font-weight: 1000;
+    margin-top: 200px;
+   color: #ffff;
+}
+.button-container p{
+    font-size: 30px;
+    margin-left: 450px;
+     font-weight: 1000;
+     margin-top: 40px;
+     color: #ffff;
+}
+#plan-vacation{
+    margin-left: 700px;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(108, 138, 69);
+  color: aliceblue;
+ box-sizing: border-box;
+ border: rgb(238, 228, 224) solid;
+ }
+
+.on-sale{
+    margin-left: 720px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+#image{
+    width: 300px;
+  
+
+}
+.image-position{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
