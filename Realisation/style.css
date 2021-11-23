@@ -9,21 +9,18 @@ body {
 
    overflow-x: hidden;
 }
-.MENU{
-    margin-top: 40PX;
-    top: 0px;
-}
-.FAVORIE{
-   margin-top: 40PX;
-}
+
+
 .row{
+   width: 100%;
+   justify-content: space-between;
    box-sizing: border-box;
    display: flex;
    flex:0 1 auto;
    flex-direction: row;
+  
    flex-wrap: wrap;
-   /* margin-right: 50px; */
-  margin-left: 160px;
+  
 
 }
 .P1{
@@ -43,7 +40,7 @@ header nav {
     justify-content: space-around;
     color: white;
     list-style: none;
-    position: sticky;
+   
     top: 0px;
     
 }
@@ -85,17 +82,54 @@ h1{
 
 .button {
     
-   width: 100PX;
+   width: 130PX;
    height:40PX ;
    border-radius: 8PX;
    margin-top: 30PX;
-   background-color: #4997d8;
-   border-color: #1b83c9;
-   margin-left: 550px;
+   background-color: #708a79;
+   border-color: #385241;
+   margin-left: 583px;
    color: #ffff;
   
   
 }
+.button:hover{
+   background-color: transparent;
+}
+h2{
+   text-align: center;
+   justify-content: center;
+ 
+  margin-top: 100px;
+}
+.part2{
+   text-align: center;
 
+}
 
+@media only screen and (min-width:48em)  {
+   
+   
+   .ultimate-container {
 
+      margin: auto;
+   }
+}
+
+@media only screen and (min-width:75em){
+   
+.verona-container {
+
+   text-align: start;
+}
+
+.rome-container {
+
+   text-align: start;
+}
+
+.como-container {
+
+   text-align: start;
+}
+}
