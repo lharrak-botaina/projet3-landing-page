@@ -88,13 +88,17 @@ h1{
    margin-top: 30PX;
    background-color: #708a79;
    border-color: #385241;
-   margin-left: 583px;
    color: #ffff;
+   text-align: center;
   
   
 }
 .button:hover{
    background-color: transparent;
+}
+
+.button-container{
+   text-align: center;
 }
 h2{
    text-align: center;
